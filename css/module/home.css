@@ -42,6 +42,23 @@ p {
 }
 
 
+strong {
+    font-weight: bold;
+}
+
+
+u {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+
+em {
+    font-style: italic;
+}
+
+
 a {
     color: #1792d2;
     text-decoration: none;
