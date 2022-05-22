@@ -1,0 +1,103 @@
+/* =================
+Layout Media
+================= */
+@media (min-width: 765px) {
+    .box_flex {
+        flex-direction: row;
+        text-align: left;
+    }
+
+
+    .container {
+        grid-template-rows: min-content auto min-content;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd hd hd hd hd"
+        "mn mn mn mn mn mn mn mn sd sd sd sd"
+        "ft ft ft ft ft ft ft ft ft ft ft ft";
+    }
+
+
+    .header {
+        padding: 1rem 5rem;
+    }
+
+
+    .content {
+        padding: 0 0 0 5rem;
+    }
+
+
+    .gallery {
+        padding: 0 5rem 0 1rem;
+    }
+
+
+    .footer {
+        padding: 1rem 5rem;
+    }
+}
+
+
+/* =================
+Navigation Media
+================= */
+@media (min-width: 765px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+
+/* =================
+Main Content Media
+================= */
+@media (min-width: 765px) {
+    .article_recent {
+        grid-template-columns: minmax(150px, 230px) minmax(150px, 1fr);
+        grid-template-rows: 30px auto 20px min-content;
+        grid-template-areas:
+        "ig tl"
+        "ig bd"
+        "ig rl"
+        "if if";
+    }
+
+
+    .article_info {
+        justify-self: start;
+    }
+}
+
+
+/* =================
+Form Media
+================= */
+@media (min-width: 765px) {
+    .register_form {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        width: 70%;
+        min-width: 430px;
+    }
+
+
+    .form_child {
+        padding-left: 3px;
+    }
+}
+
+
+/* =================
+Social Media
+================= */
+@media (min-width: 765px) {
+    .social_list {
+        gap: 1.5em;
+    }
+
+
+    .social_link {
+        font-size: 1.3rem;
+    }
+}

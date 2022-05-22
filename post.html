@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Personal Blog Website</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header box_flex">
+            <div class="logo">
+                <h1 class="logotype">Victor Menoscal</h1>
+                <p class="baseline">A blog personal</p>
+            </div>
+            <nav class="navigator">
+                <ul class="menu">
+                    <li class="item"><a class="item_link" href="index.html">Home</a></li>
+                    <li class="item"><a class="item_link current_page" href="post.html">Post</a></li>
+                    <li class="item"><a class="item_link" href="about.html">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <article class="article_profile">
+                <figure class="figure_article">
+                    <img class="image_full" src="img/game.jpg" alt="game">
+                    <figcaption class="image_caption">End of the race</figcaption>
+                </figure>
+                <h2 class="article_title">
+                    Gaming
+                </h2>
+                <p class="article_body">
+                    <strong>Need for Speed: No Limits</strong> Available for iOS and Android. <a class="link_text" href="https://www.ea.com/es-es/games/need-for-speed/need-for-speed-no-limits" target="_blank">NFS No Limits</a> is a mobile racing game with awesome graphics and customizable cars.
+                </p>
+                <figure class="figure_article">
+                    <img class="image_full" src="img/car_game.jpg" alt="car game">
+                    <figcaption class="image_caption">Special event camera</figcaption>
+                </figure>
+            </article>
+        </main>
+        <aside class="gallery">
+            <div class="gallery_widget">
+                <h2 class="widget_title">
+                    Follow Me
+                </h2>
+                <ul class="social_list">
+                    <li class="social_item"><a class="social_link" href="https://www.linkedin.com/in/victormenoscal/?locale=en_US" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social_item"><a class="social_link" href="https://www.facebook.com/MenoscalVictor" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="social_item"><a class="social_link" href="https://twitter.com/vicameno" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="gallery_widget">
+                <h2 class="widget_title">
+                    Recent Post
+                </h2>
+                <div class="widget_recent">
+                    <h3 class="widget_recent_title">
+                        Gaming
+                    </h3>
+                    <img class="widget_image" src="img/game.jpg" alt="game">
+                </div>
+                <div class="widget_recent">
+                    <h3 class="widget_recent_title">
+                        Family
+                    </h3>
+                    <img class="widget_image" src="img/family.jpg" alt="family">
+                </div>
+                <div class="widget_recent">
+                    <h3 class="widget_recent_title">
+                        Programming
+                    </h3>
+                    <img class="widget_image" src="img/programming.jpg" alt="programming">
+                </div>
+            </div>
+        </aside>
+        <footer class="footer box_flex">
+            <div class="logo_footer">
+                <h1 class="logotype_footer">Copyright 2022</h1>
+                <blockquote class="baseline_footer" cite="https://leginfo.legislature.ca.gov/">
+                    I'll never share your information without your permission.
+                </blockquote>
+            </div>
+            <form class="register_form" action="index.html" method="POST">
+                <input class="fname form_child" type="text" placeholder="first name" required>
+                <input class="email form_child" type="email" placeholder="email" required>
+                <button class="register_btn form_child" type="submit">Register</button>
+            </form>
+        </footer>
+    </div>
+</body>
+</html>
