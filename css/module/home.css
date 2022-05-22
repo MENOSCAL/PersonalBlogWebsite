@@ -48,9 +48,7 @@ strong {
 
 
 u {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: red;
+    text-decoration: underline;    
 }
 
 
@@ -103,6 +101,12 @@ img {
 .image_full {
     max-height: 300px;
     margin: auto;
+}
+
+
+.spelling {
+    text-decoration-style: wavy;
+    text-decoration-color: red;
 }
 
 
