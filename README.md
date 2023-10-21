@@ -6,7 +6,7 @@ Designed the structure of my files, as well as use proper CSS and HTML formattin
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Creator](#creators)
+* [Creators](#creators)
 
 ## Instructions
 
